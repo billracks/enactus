@@ -22,7 +22,7 @@ export const titleStyle = () => {
 
     return {
         fontSize: "42px",
-        color: "#2da7ff",
+        color: "#ffc300",
         width: "100%",
         textAlign: "center",
     }

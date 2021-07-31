@@ -69,39 +69,9 @@ class KitchenSinkApp extends React.PureComponent {
           {authRedirect}
           {loader}
           {errorMessage}
-          <p css={titleStyle()}>Kitchen Sink App</p>
-          <p css={subtitleStyle()}>Login with one of our sample users</p>
+          <p css={titleStyle()}>Enactus Project Rooms</p>
           <div css={userContainerStyle()}>
-            <div css={userWrapperStyle()} onClick={()=>this.login('superhero1')}>
-              <div css={thumbnailWrapperStyle()}>
-                <CometChatAvatar image='https://data-us.cometchat.io/assets/images/avatars/ironman.png' />
-              </div>
-              <p>superhero1</p>
-            </div>
-            <div css={userWrapperStyle()} onClick={()=>this.login('superhero2')}>
-              <div css={thumbnailWrapperStyle()}>
-                <CometChatAvatar image='https://data-us.cometchat.io/assets/images/avatars/captainamerica.png' />
-              </div>
-              <p>superhero2</p>
-            </div>
-            <div css={userWrapperStyle()} onClick={()=>this.login('superhero3')}>
-              <div css={thumbnailWrapperStyle()}>
-                <CometChatAvatar image='https://data-us.cometchat.io/assets/images/avatars/spiderman.png' />
-              </div>
-              <p>superhero3</p>
-            </div>
-            <div css={userWrapperStyle()} onClick={()=>this.login('superhero4')}>
-              <div css={thumbnailWrapperStyle()}>
-                <CometChatAvatar image='https://data-us.cometchat.io/assets/images/avatars/wolverine.png' />
-              </div>
-              <p>superhero4</p>
-            </div>
-            <div css={userWrapperStyle()} onClick={()=>this.login('superhero5')}>
-              <div css={thumbnailWrapperStyle()}>
-                <CometChatAvatar image='https://data-us.cometchat.io/assets/images/avatars/cyclops.png' />
-              </div>
-              <p>superhero5</p>
-            </div>
+           
           </div><br/>
           <div css={uidWrapperStyle()}>
             <div>

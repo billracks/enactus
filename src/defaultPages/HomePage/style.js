@@ -15,7 +15,7 @@ export const titleStyle = () => {
 
     return {
         textAlign: "center",
-        color: "rgb(67, 171, 255)",
+        color: "#ffc300",
         fontSize: "24px",
         width: "100%",
         padding: "0 1em",
@@ -192,11 +192,11 @@ export const linkWrapperStyle = () => {
 export const linkStyle = () => {
 
     return {
-        color: "rgb(67, 171, 255)!important",
+        color: "rgb(130, 130, 130)!important",
         fontWeight: 600,
         fontSize: "14px",
         "&:hover": {
-            color: "darken(rgb(67, 171, 255), 20%)",
+            color: "darken(rgb(255, 196, 0), 20%)",
             fontWeight: "600",
             fontSize: "14px",
         }
